@@ -11,7 +11,7 @@
 }
 
 .opening{
-    background-image: url('./image/imgs/doctos\ \(2\).jpg');
+    background-image: url("./image/imgs/doctos\ \(2\).jpg");
     background-attachment: fixed;
     background-size: cover;
     height:500px;
@@ -32,10 +32,10 @@
     justify-content: center;
     width:250px;
     height: 250px;
-    border-radius: 50%;
+    border-radius: 10%;
     background-color: #ffffff;
-    margin-left: 10px;
-    margin-bottom: 50px;
+    margin:2px;
+    margin-bottom: 10px;
 }
 
 .texto{
@@ -59,20 +59,21 @@
 
 .validation{
     background-color:#0d6EFD;
-    height:300px;
+    height:auto;
+    display: grid;
 }
 
 .bloco{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     width:200px;
     height: 200px;
     border-radius: 5%;
     background-color: #ffffff;
-    margin-left: 10px;
+    margin:5px;
     margin-bottom: 50px;
 }
 

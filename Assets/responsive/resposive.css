@@ -1,0 +1,26 @@
+@media only screen and (max-width:500px){
+    /*Pagina */
+
+    h3{
+        margin-top:20px;
+    }
+
+    .imagesfloat{
+        width: 50%;
+    }
+
+    .validation{
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    .bloco{
+        margin: auto;
+        margin-top:5px;
+    }
+
+    .plans{
+        height:500px;
+        font-size:1.2rem
+    }
+}
